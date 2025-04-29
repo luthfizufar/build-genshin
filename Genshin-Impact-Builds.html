@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact Character Builds</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#ff4c4c',secondary:'#4cc2ff'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <header class="relative w-full h-[400px] overflow-hidden">
+        <div style="background-image: url('https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/44d588d0714f6e9ff2ced4f73a3a4236.png');" class="absolute inset-0 bg-cover bg-center w-full h-full"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#1a1a1a]"></div>
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+            <h1 class="text-5xl font-bold mb-4 text-center">Genshin Impact Character Builds</h1>
+            <p class="text-xl max-w-2xl text-center">Optimize your character builds with our comprehensive guides</p>
+        </div>
+    </header>
+    <nav class="sticky top-0 z-50 w-full bg-[#1a1a1a] border-b border-[#3a3a3a] py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center justify-between w-full">
+                <span class="text-2xl font-['Poppins'] text-white"></span>
+            </div>
+        </div>
+    </nav>
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/7c20904932d0786cbc2ea8104032896a.png" alt="Hu Tao" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon pyro mr-2">
+                                <i class="ri-fire-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Pyro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Hu Tao</h3>
+                        <p class="text-sm text-gray-300">Polearm User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/9c836ffa6b673bd42d24d2dfb32e8295.png" alt="Xingqiu" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon hydro mr-2">
+                                <i class="ri-water-flash-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Hydro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Xingqiu</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/648d6fd7ba8b2c33d7dd5f7ebbf8445b.png" alt="Venti" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon anemo mr-2">
+                                <i class="ri-windy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Anemo</span>
+                            </div>
+                        <h3 class="text-xl font-bold text-white">Venti</h3>
+                        <p class="text-sm text-gray-300">Bow User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/28577523d30cc8908e52494f7b89e9c2.png" alt="Keqing" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Keqing</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/401adda237cd2074d907a50cbdf6bdf2.png" alt="Eula" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon cryo mr-2">
+                                <i class="ri-snowy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Cryo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Eula</h3>
+                        <p class="text-sm text-gray-300">Claymore User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/c909c4cbc6daadccf17c07d0de064ddc.png" alt="Zhongli" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon geo mr-2">
+                                <i class="ri-earth-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Geo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Zhongli</h3>
+                        <p class="text-sm text-gray-300">Polearm User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/0c7a347d37d2c8078b35de15319dd594.png" alt="Nahida" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon dendro mr-2">
+                                <i class="ri-plant-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Dendro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Nahida</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/1706bbe90607c88f82a8d53ef647a783.png" alt="Beidou" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Beidou</h3>
+                        <p class="text-sm text-gray-300">Claymore User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/bf524a71216a62bb4f5f0df831eef36b.png" alt="Yoimiya" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon pyro mr-2">
+                                <i class="ri-fire-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Pyro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Mavuika</h3>
+                        <p class="text-sm text-gray-300">Claymore User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/d0cb5a4c7b33d250121791aa21a0f8b2.png" alt="Barbara" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon hydro mr-2">
+                                <i class="ri-water-flash-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Hydro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">neuvillette</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/3206fde16667b40bc41ca94bd48c4d42.png" alt="Jean" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon anemo mr-2">
+                                <i class="ri-windy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Anemo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Jean</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/64fcf8d3d430bf6eb7e18d5376faa1c0.png" alt="Lisa" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Varesa</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/97b1159c5b6fcfa8544e76535a88354d.png" alt="Ganyu" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon cryo mr-2">
+                                <i class="ri-snowy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Cryo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Ganyu</h3>
+                        <p class="text-sm text-gray-300">Bow User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/284fe755ccc2ee666dadabb6f6b95ba0.png" alt="Noelle" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon geo mr-2">
+                                <i class="ri-earth-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Hydro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Furina</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/d302d0d52aa71b477699318d4765bdb1.png" alt="Collei" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon dendro mr-2">
+                                <i class="ri-plant-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Dendro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Alhaitham</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/fcd7794ff455f3c3ef5030a9a228eb09.png" alt="Diluc" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon pyro mr-2">
+                                <i class="ri-fire-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Pyro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Arlecchino</h3>
+                        <p class="text-sm text-gray-300">Polearm User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/b9b75b56ebe90ab2496a87ccc3511d84.png" alt="Ayaka" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon cryo mr-2">
+                                <i class="ri-snowy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Cryo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Ayaka</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/59f6f9b6dee2dfbf6a48683b3740009e.png" alt="Raiden Shogun" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Raiden Shogun</h3>
+                        <p class="text-sm text-gray-300">Polearm User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/3c914ea214c0cc435e792e266a6cc551.png" alt="Kazuha" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon anemo mr-2">
+                                <i class="ri-windy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Anemo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Kazuha</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/4dada093db587535f07d755de645e50e.png" alt="Yanfei" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon pyro mr-2">
+                                <i class="ri-fire-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Pyro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Xiangling</h3>
+                        <p class="text-sm text-gray-300">Polearm User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/5946ba35e8db56a173802bd796aeeae1.png" alt="Kokomi" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon hydro mr-2">
+                                <i class="ri-water-flash-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Hydro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Kokomi</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/588a7cf67b91f6c7396769b564b6b042.png" alt="Kamisato Ayaka" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon cryo mr-2">
+                                <i class="ri-snowy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Cryo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Wriothesley</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/dec434eb6fb5ad19d328bdd2392d906d.png" alt="Kamisato Ayato" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon hydro mr-2">
+                                <i class="ri-water-flash-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Hydro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Mualani</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/d8ca7e83f480ca7b020502fb82e624a8.png" alt="Yae Miko" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Yae Miko</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/0d8402eddc870fac1da986e1f9cdfe38.png" alt="Tighnari" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon dendro mr-2">
+                                <i class="ri-plant-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Dendro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Tighnari</h3>
+                        <p class="text-sm text-gray-300">Bow User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/7e75829df3f62ff94583809ea1f0af92.png" alt="Dehya" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon pyro mr-2">
+                                <i class="ri-fire-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Pyro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Gaming</h3>
+                        <p class="text-sm text-gray-300">Claymore User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/2f97c4971681c522e7858b37ce47d49d.png" alt="Aloy" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon cryo mr-2">
+                                <i class="ri-snowy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Cryo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Freminet</h3>
+                        <p class="text-sm text-gray-300">Claymore User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/1a88d3cea420b1f3b0f55606a37df903.png" alt="Dori" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon electro mr-2">
+                                <i class="ri-thunderstorms-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Electro</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Kuki Shinobu</h3>
+                        <p class="text-sm text-gray-300">Sword User</p>
+                    </div>
+                </a>
+
+                <a href="#character-build" class="character-card rounded relative overflow-hidden aspect-square">
+                    <img src="https://static.readdy.ai/image/89b181319e93f0bbe131f7be99992aa6/f128df6c013cac0bff92584ac83dbab1.png" alt="Sucrose" class="w-full h-full object-cover object-top">
+                    <div class="character-overlay absolute inset-0 flex flex-col justify-end p-4">
+                        <div class="flex items-center mb-2">
+                            <div class="element-icon anemo mr-2">
+                                <i class="ri-windy-fill text-white"></i>
+                            </div>
+                            <span class="text-sm text-white">Anemo</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Wanderer</h3>
+                        <p class="text-sm text-gray-300">Catalyst User</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#2a2a2a] py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between mb-8">
+                <div class="mb-8 md:mb-0">
+                    <span class="text-3xl font-['Poppins'] text-white mb-4 block">COVES</span>
+                    <p class="text-gray-400 max-w-xs">Your ultimate resource for Genshin Impact character builds, weapons, and artifacts.</p>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                        <div>
+                            <h4 class="text-white font-bold mb-4">Navigation</h4>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="text-gray-400 hover:text-primary transition">Home</a></li>
+                                <li><a href="https://readdy.ai/home/71a4bea9-8e8d-4c20-a3ce-d6eae815ebf7/0a9c9b0f-66b2-47f3-8a80-1e34a6a68a7a" data-readdy="true" class="text-gray-400 hover:text-primary transition">Characters</a></li>
+                                <li><a href="#" class="text-gray-400 hover:text-primary transition">Weapons</a></li>
+                                <li><a href="#" class="text-gray-400 hover:text-primary transition">Artifacts</a></li>
+                                <li><a href="#" class="text-gray-400 hover:text-primary transition">Tier List</a></li>
+                            </ul>
+                        </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Resources</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Guides</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Farming Routes</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Team Comps</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Abyss Guides</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Events</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Connect</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Discord</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Twitter</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">YouTube</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Reddit</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-primary transition">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-[#3a3a3a] pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Genshin Builds. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-primary transition">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-discord-fill"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-gray-400 hover:text-primary transition">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-twitter-fill"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-gray-400 hover:text-primary transition">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-youtube-fill"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-gray-400 hover:text-primary transition">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-reddit-fill"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const defaultBuild = document.getElementById('hu-tao-build');
+        defaultBuild.style.display = 'block';
+
+        document.querySelectorAll('.character-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+        e.preventDefault();
+        const characterName = this.querySelector('h3').textContent;
+        const buildSections = document.querySelectorAll('.character-build-section');
+        buildSections.forEach(section => {
+        section.style.display = 'none';
+        });
+        const targetBuild = document.querySelector(`[data-character="${characterName}"]`);
+        if (targetBuild) {
+        targetBuild.style.display = 'block';
+        targetBuild.scrollIntoView({ behavior: 'smooth' });
+        } else {
+        defaultBuild.style.display = 'block';
+        defaultBuild.scrollIntoView({ behavior: 'smooth' });
+        }
+        });
+        });
+        // Create stars
+        const starsContainer = document.getElementById('stars');
+        const starCount = 100;
+        for (let i = 0; i < starCount; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        // Random position
+        const left = Math.random() * 100;
+        const top = Math.random() * 100;
+        star.style.left = `${left}%`;
+        star.style.top = `${top}%`;
+        // Random delay for animation
+        const delay = Math.random() * 5;
+        star.style.animationDelay = `${delay}s`;
+        starsContainer.appendChild(star);
+        }
+        // Show character build section
+        document.querySelectorAll('.character-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+        e.preventDefault();
+        const characterName = this.querySelector('h3').textContent;
+        const buildSections = document.querySelectorAll('.character-build-section');
+        buildSections.forEach(section => {
+        if (section.getAttribute('data-character') === characterName) {
+        section.classList.remove('hidden');
+        section.scrollIntoView({ behavior: 'smooth' });
+        } else {
+        section.classList.add('hidden');
+        }
+        });
+        });
+        });
+        });
+    </script>
+</body>
+</html>
